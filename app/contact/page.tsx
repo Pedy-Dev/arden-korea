@@ -4,15 +4,11 @@ import Button from '@/components/ui/Button';
 import { MessageCircle, Phone, Mail, MapPin, Building2, User, Clock } from 'lucide-react';
 
 export default function ContactPage() {
-  // 카카오톡 채널 URL (심사 완료 후 실제 URL로 교체)
-  const kakaoChannelUrl = '#'; // 예: 'http://pf.kakao.com/_xabc123'
+  // 카카오톡 채널 URL
+  const kakaoChannelUrl = 'http://pf.kakao.com/_FaIhX';
 
   const handleKakaoClick = () => {
-    if (kakaoChannelUrl === '#') {
-      alert('카카오톡 채널 심사 진행 중입니다.\n임시로 전화(0507-1365-3078) 또는 이메일로 문의해 주세요.');
-    } else {
-      window.open(kakaoChannelUrl, '_blank');
-    }
+    window.open(kakaoChannelUrl, '_blank');
   };
 
   return (
@@ -35,12 +31,9 @@ export default function ContactPage() {
           {/* 카카오톡 메인 CTA */}
           <div className="bg-yellow-50 border-2 border-yellow-300 rounded-2xl p-8 md:p-12 text-center mb-8">
             <MessageCircle className="w-16 h-16 text-yellow-600 mx-auto mb-4" />
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
-              카카오톡 상담
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
+              카카오톡 문의
             </h2>
-            <p className="text-gray-600 mb-6 text-lg">
-              가장 빠르고 편한 상담 방법입니다
-            </p>
             <Button
               onClick={handleKakaoClick}
               variant="primary"
@@ -48,12 +41,10 @@ export default function ContactPage() {
               className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 text-lg"
             >
               <MessageCircle className="w-6 h-6 mr-2" />
-              카카오톡 채널 상담하기
+              카카오톡 채널 문의하기
             </Button>
             <p className="text-sm text-gray-500 mt-4">
-              {kakaoChannelUrl === '#'
-                ? '※ 현재 채널 심사 진행 중입니다. 전화나 이메일로 문의 주세요.'
-                : '클릭하면 카카오톡 채널이 열립니다'}
+              클릭하면 카카오톡 채널이 열립니다
             </p>
           </div>
 

@@ -34,13 +34,14 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center mb-10">
-              <Link href="/contact">
-                <Button variant="primary" size="md">
-                  부산 납품 문의하기
+              <Link href="/contact" className="w-full sm:w-[200px]">
+                <Button variant="primary" size="md" className="w-full h-12">
+                  납품 문의하기
                 </Button>
               </Link>
-              <Link href="/process">
-                <Button variant="outline" size="md">
+
+              <Link href="/process" className="w-full sm:w-[200px]">
+                <Button variant="outline" size="md" className="w-full h-12">
                   납품 프로세스 보기
                 </Button>
               </Link>

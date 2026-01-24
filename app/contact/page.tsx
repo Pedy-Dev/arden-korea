@@ -106,15 +106,15 @@ export default function ContactPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-700 mt-1">•</span>
-                <span>월 예상 사용량 (예: 10kg, 50kg)</span>
+                <span>원하는 원료 및 수량</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-700 mt-1">•</span>
-                <span>원하는 포장 단위 (예: 1kg 소분, 10kg 벌크)</span>
+                <span>원하는 납품 날짜</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-700 mt-1">•</span>
-                <span>납품 희망 지역 (예: 부산 해운대구)</span>
+                <span>납품 희망 주소</span>
               </li>
             </ul>
           </div>

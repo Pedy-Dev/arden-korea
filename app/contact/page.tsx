@@ -24,7 +24,7 @@ export default function ContactPage() {
             납품 문의하기
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            카카오톡으로 편하게 상담하세요
+            언제든 편하게 상담하세요
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function ContactPage() {
           <div className="bg-yellow-50 border-2 border-yellow-300 rounded-2xl p-8 md:p-12 text-center mb-8">
             <MessageCircle className="w-16 h-16 text-yellow-600 mx-auto mb-4" />
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
-              카카오톡 상담 (추천)
+              카카오톡 상담
             </h2>
             <p className="text-gray-600 mb-6 text-lg">
               가장 빠르고 편한 상담 방법입니다

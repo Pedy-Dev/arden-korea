@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arden Korea (아르덴)
 
-## Getting Started
+부산 카페를 위한 신뢰할 수 있는 수입 원료 파트너
 
-First, run the development server:
+## 프로젝트 소개
+
+아르덴(Arden)은 B2B 카페 고객을 위한 수입 원료 납품 회사입니다. 정식 수입, 투명한 서류, 부산 기반 빠른 납품을 핵심 가치로 합니다.
+
+## 기술 스택
+
+- **Framework**: Next.js 16.1.0 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4.x
+- **Icons**: Lucide React
+- **Deploy**: Vercel
+
+## 로컬 실행
 
 ```bash
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인하세요.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 프로젝트 구조
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+arden-korea/
+├── app/
+│   ├── layout.tsx          # 루트 레이아웃 + SEO
+│   ├── page.tsx            # 홈페이지
+│   ├── process/page.tsx    # 프로세스 페이지
+│   ├── contact/page.tsx    # 문의 페이지
+│   └── globals.css         # 글로벌 스타일
+├── components/
+│   ├── layout/             # Header, Footer
+│   ├── home/               # 홈페이지 섹션 컴포넌트
+│   └── ui/                 # 재사용 UI 컴포넌트
+└── public/
+    └── images/             # 정적 이미지
+```
 
-## Learn More
+## 페이지 구성
 
-To learn more about Next.js, take a look at the following resources:
+- **/** - 메인 랜딩 페이지
+- **/process** - 납품 프로세스 상세
+- **/contact** - 납품 문의 폼
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Vercel 배포
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# GitHub에 푸시 후
+vercel deploy
 
-## Deploy on Vercel
+# 또는 Vercel 대시보드에서 GitHub 연동
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 향후 연동 계획
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Contact 폼 → Email API (Resend, SendGrid 등)
+- 리뷰 시스템 → Supabase
+- 제품 추가 시 CMS 연동
+
+## 회사 정보
+
+- **상호**: 아르덴(Arden)
+- **대표**: 염재민
+- **사업자등록번호**: 306-18-52231
+- **주소**: 부산광역시 사상구 새벽로 170, 3층 381호(감전동)
+- **이메일**: duawoals3078@gmail.com
+
+---
+
+© 2025 Arden. All rights reserved.

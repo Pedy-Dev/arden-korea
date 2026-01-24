@@ -22,13 +22,13 @@ export default function Hero() {
           {/* White layered box behind content */}
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl px-6 py-10 md:px-10 md:py-14 max-w-3xl mx-auto">
             {/* Headline */}
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 leading-tight mb-5">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 leading-tight mb-5">
               정식 수입으로 기준을 만든<br />
               <span className="text-blue-700">신뢰할 수 있는 수입 원료 파트너</span>
             </h1>
 
             {/* Subhead */}
-            <p className="text-base md:text-lg text-gray-600 mb-7 max-w-xl mx-auto leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-7 max-w-xl mx-auto leading-relaxed">
               정식 통관부터 투명한 서류까지, 아르덴이 함께합니다
             </p>
 

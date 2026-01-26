@@ -29,7 +29,7 @@ export default function Hero() {
 
             {/* Subhead */}
             <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-7 max-w-xl mx-auto leading-relaxed">
-              정식 통관부터 투명한 서류까지, 아르덴이 함께합니다
+              정식 통관부터 투명한 서류까지, 아르덴 유통이 함께합니다
             </p>
 
             {/* CTA Buttons */}

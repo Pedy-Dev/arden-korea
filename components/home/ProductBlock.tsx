@@ -1,9 +1,8 @@
 const specs = [
-  { label: '형태', value: 'In-shell (껍질 있음)' },
-  { label: '포장 단위', value: '벌크 (1kg, 5kg, 10kg 협의 가능)' },
-  { label: '최소 주문량', value: '협의 (소량 주문 환영)' },
-  { label: '리드타임', value: '재고 확인 후 협의' },
-  { label: '납품 범위', value: '부산 → 전국 (부산/경남 우선)' },
+  { label: '형태', value: '탈각' },
+  { label: '포장 단위', value: '10kg' },
+  { label: '최소 주문량', value: '10kg' },
+  { label: '납품 기간', value: '부산 지역 당일 납품 (문의 요망)' },
   { label: '보관 조건', value: '실온 보관 가능' },
 ];
 
@@ -17,7 +16,7 @@ export default function ProductBlock() {
             현재 공급 가능 상품
           </h2>
           <p className="text-gray-600">
-            피스타치오 (추후 마시멜로, 쿠키용기 등 확장 예정)
+            마시멜로, 쿠키용기 추후 공급 예정
           </p>
         </div>
 

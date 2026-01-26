@@ -80,10 +80,10 @@ export default function ContactPage() {
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-800 mb-2">이메일 문의</h3>
                   <a
-                    href="mailto:duawoals3078@gmail.com"
+                    href="mailto:ardenbizkorea@gmail.com"
                     className="text-blue-700 hover:underline block break-all"
                   >
-                    duawoals3078@gmail.com
+                    ardenbizkorea@gmail.com
                   </a>
                   <p className="text-sm text-gray-500 mt-1">
                     상세한 내용은 이메일로 보내주세요

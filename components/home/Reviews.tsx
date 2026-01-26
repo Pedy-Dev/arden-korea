@@ -4,7 +4,7 @@ export default function Reviews() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800 mb-4">
-          고객 후기
+          고객사 후기
         </h2>
         <p className="text-center text-gray-500 mb-12">
           곧 업데이트 예정입니다

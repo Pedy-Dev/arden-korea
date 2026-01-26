@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">연락처</h3>
             <div className="space-y-2 text-gray-400 text-sm">
-              <p>이메일: duawoals3078@gmail.com</p>
+              <p>이메일: ardenbizkorea@gmail.com</p>
               <p className="text-xs mt-4">
                 본 사이트는 정보 제공 목적이며, 주문은 문의 후 진행됩니다.
               </p>

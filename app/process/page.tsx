@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Button from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: '납품 프로세스 | 아르덴(Arden)',
-  description: '아르덴의 투명하고 체계적인 4단계 납품 프로세스를 확인하세요.',
+  title: '납품 프로세스 | 아르덴 유통(Arden)',
+  description: '아르덴 유통의 투명하고 체계적인 4단계 납품 프로세스를 확인하세요.',
 };
 
 const steps = [
@@ -69,7 +69,7 @@ export default function ProcessPage() {
       <section className="bg-gradient-to-br from-blue-50 to-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            아르덴의 납품 프로세스
+            아르덴 유통의 납품 프로세스
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
             투명하고 체계적인 4단계 과정

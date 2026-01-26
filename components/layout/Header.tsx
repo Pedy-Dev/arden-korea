@@ -20,7 +20,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <span className="text-2xl font-bold text-blue-700">Arden</span>
-            <span className="ml-2 text-sm text-gray-500">아르덴</span>
+            <span className="ml-2 text-sm text-gray-500">아르덴유통</span>
           </Link>
 
           {/* Desktop Navigation */}

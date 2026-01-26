@@ -12,13 +12,13 @@ export default function ContactTeaser() {
 
         {/* Subtitle */}
         <p className="text-blue-200 mb-8 max-w-xl mx-auto">
-          상호, 연락처, 월 사용량을 알려주시면 빠르게 안내드립니다
+          실시간 1:1 상담을 통해 빠르고 정확한 답변을 드립니다
         </p>
 
         {/* CTA Button */}
         <Link href="/contact">
           <Button variant="secondary" size="lg">
-            문의 폼 작성하기
+            문의하기
           </Button>
         </Link>
       </div>

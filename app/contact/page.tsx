@@ -20,7 +20,7 @@ export default function ContactPage() {
             납품 문의하기
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            언제든 편하게 상담하세요
+            실시간 1:1 상담을 통해 빠르고 정확한 답변을 드립니다
           </p>
         </div>
       </section>

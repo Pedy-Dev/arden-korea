@@ -18,9 +18,16 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-blue-700">Arden</span>
-            <span className="ml-2 text-sm text-gray-500">아르덴유통</span>
+          <Link href="/" className="flex items-end gap-2">
+            {/* 브랜드 영문 */}
+            <span className="text-2xl font-bold text-blue-700 leading-none">
+              Arden
+            </span>
+
+            {/* 한글 서브명: 하단 기준선 정렬 */}
+            <span className="text-sm text-gray-500 leading-none pb-[2px]">
+              아르덴 유통
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

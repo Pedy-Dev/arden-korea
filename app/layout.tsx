@@ -36,8 +36,33 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: '아르덴 유통',
+    alternateName: 'Arden Korea',
+    url: 'https://ardenkorea.com',
+    description: '부산 기반 카페용 수입 원료 납품 전문 업체. 피스타치오, 마시멜로, 쿠키용기 등 정식 통관 수입 원료 공급.',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: '부산',
+      addressCountry: 'KR',
+    },
+    areaServed: {
+      '@type': 'Place',
+      name: '대한민국',
+    },
+    knowsAbout: ['카페 원료', '식자재 공급', '수입 원료', '피스타치오', '베이킹 재료'],
+  };
+
   return (
     <html lang="ko">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="antialiased">
         <Header />
         {children}

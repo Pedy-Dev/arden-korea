@@ -3,8 +3,8 @@ import { BadgeCheck, Building2, Truck } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
 const badges = [
-  { icon: BadgeCheck, text: '정식 수입판매업 신고' },
-  { icon: Building2, text: '사업자등록 완료' },
+  { icon: BadgeCheck, text: '정식 수입·통관 제품' },
+  { icon: Building2, text: '거래 서류 제공 가능' },
   { icon: Truck, text: '부산 기반 빠른 배송' },
 ];
 

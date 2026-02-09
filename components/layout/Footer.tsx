@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="space-y-2 text-gray-400 text-sm">
               <p>대표: 염재민</p>
               <p>사업자등록번호: 306-18-52231</p>
-              <p>주소: 부산광역시 사상구 새벽로 170, 3층 381호(감전동)</p>
+              <p>주소: 부산광역시 사상구 새벽시장로 61, 1층</p>
             </div>
           </div>
 

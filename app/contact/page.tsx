@@ -147,7 +147,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-medium text-gray-800">주소</p>
                   <p className="text-gray-600 text-sm">
-                    부산광역시 사상구 새벽로 170, 3층 381호(감전동)
+                     부산광역시 사상구 새벽시장로 61, 1층
                   </p>
                 </div>
               </div>
